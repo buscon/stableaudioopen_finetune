@@ -1,0 +1,13 @@
+{
+  "dataset_type": "audio_dir",
+  "random_crop": true,
+  "datasets": [
+    {
+      "id": "ds0",
+      "path": "/home/stable-audio/Documents/stableaudioopen_finetune/data/dataset/output_dataset/audio",
+      "recursive": true,
+      "extensions": [".wav", ".flac", ".mp3", ".ogg"],
+      "custom_metadata_module": "/home/stable-audio/Documents/stableaudioopen_finetune/configs/metadata_adapter.py"
+    }
+  ]
+}
